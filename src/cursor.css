@@ -1,0 +1,16 @@
+/* Hide default cursor completely - using custom circle effect instead */
+* {
+  cursor: none !important;
+}
+
+html, body, div, section, main, header, footer, nav, article, aside {
+  cursor: none !important;
+}
+
+a, button, input, textarea, select, label, [role="button"] {
+  cursor: none !important;
+}
+
+*:hover, *:focus, *:active {
+  cursor: none !important;
+}
