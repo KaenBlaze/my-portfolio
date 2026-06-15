@@ -18,7 +18,7 @@ import instagram1 from './socials/instagram (1).png';
 import tvshowbox from './carousels/tvshow screenshot 1.png';
 import guesstheword from './carousels/guess the word screenshot 1.png';
 import tictactoe from './carousels/tic tac toe screenshot 1.png';
-import mathmagician from './portfolio1.png';
+import mathmagician from './projects/screenshots/6.png';
 import metricwebapp from './carousels/metrics webapp screenshot 1.png';
 import spacetravelers from './carousels/space travelers screenshot 1.png';
 import recipeapp from './carousels/recipe app screenshot 3.png';
