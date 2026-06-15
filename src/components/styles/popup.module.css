@@ -1,126 +1,133 @@
 .overlay {
   position: fixed;
-  top: 65.5px;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background-color: transparent;
-  backdrop-filter: blur(10px);
+  inset: 0;
   z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(16px, 4vw, 32px);
+  background: rgba(2, 6, 23, 0.82);
+  backdrop-filter: blur(10px);
+  overflow-y: auto;
 }
 
 .container {
-  background-color: var(--dark-blue);
-  width: 90%;
-  margin: 0 auto;
+  width: min(100%, 760px);
+  max-height: min(92vh, 860px);
+  overflow-y: auto;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--dark-blue);
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
+  color: var(--white);
 }
 
 .close_btn {
   position: absolute;
-  right: 0;
-  top: 0;
-  padding: 7px;
+  top: 12px;
+  right: 12px;
   z-index: 9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
   color: var(--white);
-  background-color: var(--low-opacity);
-  font-size: 1.8rem;
+  background-color: rgba(255, 255, 255, 0.08);
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: color 0.2s ease, background-color 0.2s ease, transform 0.2s ease;
 }
 
 .close_btn:hover,
-.close_btn:focus {
+.close_btn:focus-visible {
   color: #ec008c;
-  cursor: pointer;
-}
-
-.img {
-  width: 90%;
-  height: 100%;
-  margin: 0 auto 20px auto;
+  background-color: rgba(255, 255, 255, 0.16);
+  transform: scale(1.04);
+  outline: none;
 }
 
 .content {
-  width: 90%;
-  margin: 20px auto 0 auto;
-  color: var(--white);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1.25rem 1.25rem 1.5rem;
 }
 
 .name {
+  margin: 0;
   font-family: "Bungee", cursive;
   font-size: 1.2rem;
+  line-height: 1.3;
 }
 
 .tech {
   display: flex;
-  gap: 10px;
+  flex-wrap: wrap;
+  gap: 0.45rem 0.75rem;
+  margin: 0;
 }
 
 .tech_list {
   color: var(--cyan);
-  font-size: 0.7rem;
+  font-size: 0.72rem;
   font-family: "Montserrat Alternates", sans-serif;
 }
 
 .tech_list:nth-child(2) {
-  background: #11998e; /* fallback for old browsers */
-  background:
-    -webkit-linear-gradient(
-      to top,
-      #11998e,
-      #38ef7d
-    ); /* Chrome 10-25, Safari 5.1-6 */
-
-  background:
-    linear-gradient(
-      to top,
-      #11998e,
-      #38ef7d
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #11998e;
+  background: -webkit-linear-gradient(to top, #11998e, #38ef7d);
+  background: linear-gradient(to top, #11998e, #38ef7d);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .tech_list:nth-child(3) {
-  background: #ec008c; /* fallback for old browsers */
-  background:
-    -webkit-linear-gradient(
-      to top,
-      #ec008c,
-      #fc6767
-    ); /* Chrome 10-25, Safari 5.1-6 */
-
-  background:
-    linear-gradient(
-      to top,
-      #ec008c,
-      #fc6767
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #ec008c;
+  background: -webkit-linear-gradient(to top, #ec008c, #fc6767);
+  background: linear-gradient(to top, #ec008c, #fc6767);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .description {
-  font-size: 0.8rem;
-  margin: 10px auto;
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.7;
 }
 
 .link {
   display: flex;
-  justify-content: space-between;
-  padding: 15px 0 25px 0;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.75rem;
+  width: 100%;
+  margin-top: auto;
+  padding-top: 0.75rem;
 }
 
 .btn_container {
-  padding: 8px 14px;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 44px;
+  padding: 0.65rem 0.9rem;
   color: var(--dark-blue);
   background-color: var(--cyan);
-  border-radius: 4px;
+  border-radius: 10px;
   font-size: 0.9rem;
   font-weight: 600;
-  transition: 0.2s;
-  position: relative;
+  text-decoration: none;
+  transition: color 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
   overflow: hidden;
 }
 
@@ -131,10 +138,12 @@
 
 .btn_hover {
   position: absolute;
-  top: 8px;
-  left: 14px;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   opacity: 0;
-  transform: translate(0, -100%);
+  transform: translateY(100%);
 }
 
 .btn_container:hover,
@@ -147,38 +156,37 @@
 .btn_container:hover .btn,
 .btn_container:focus .btn {
   opacity: 0;
-  transform: translate(0, 100%);
+  transform: translateY(100%);
 }
 
 .btn_container:hover .btn_hover,
 .btn_container:focus .btn_hover {
   opacity: 1;
-  transform: translate(0, 0);
+  transform: translateY(0);
 }
 
 @media screen and (min-width: 768px) {
-  .overlay {
-    top: 73.5px;
-  }
-
   .container {
-    width: 652px;
+    width: min(90vw, 720px);
   }
 
   .close_btn {
-    font-size: 2rem;
+    width: 46px;
+    height: 46px;
+    font-size: 1.35rem;
   }
 
-  .img {
-    margin-bottom: 30px;
+  .content {
+    gap: 0.95rem;
+    padding: 1.5rem 1.75rem 1.75rem;
   }
 
   .name {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   .tech {
-    gap: 15px;
+    gap: 0.55rem 0.9rem;
   }
 
   .tech_list {
@@ -187,57 +195,38 @@
 
   .description {
     font-size: 1rem;
-    margin: 20px auto;
+  }
+
+  .link {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0.9rem;
   }
 
   .btn_container {
-    font-size: 1.1rem;
-    padding: 10px 16px;
-  }
-
-  .btn_hover {
-    top: 10px;
-    left: 16px;
+    flex: 0 1 calc(50% - 0.45rem);
+    width: auto;
+    min-width: 0;
+    min-height: 42px;
+    padding: 0.7rem 1rem;
+    font-size: 0.95rem;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .overlay {
-    top: 0;
-    z-index: 3;
-  }
-
   .container {
-    width: 600px;
+    width: min(720px, 92vw);
   }
 
-  .close_btn {
-    font-size: 2.1rem;
-    padding: 7px;
-  }
-
-  .img {
-    margin-bottom: 20px;
+  .content {
+    padding: 1.75rem 2rem 2rem;
   }
 
   .name {
-    font-size: 1.3rem;
-  }
-
-  .tech {
-    gap: 15px;
-  }
-
-  .tech_list {
-    font-size: 0.8rem;
+    font-size: 1.45rem;
   }
 
   .description {
-    font-size: 0.9rem;
-    margin: 10px auto;
-  }
-
-  .btn_container {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 }

@@ -15,15 +15,15 @@ import instagram from './socials/instagram.png';
 import instagram1 from './socials/instagram (1).png';
 
 // projects
-import tvshowbox from './projects/tvshow.png';
-import guesstheword from './projects/guesstheword.png';
-import tictactoe from './projects/tictactoe.png';
-import mathmagician from './projects/mathmagician.png';
-import metricwebapp from './projects/metricswebapp.png';
-import spacetravelers from './projects/spacetravelers.png';
-import recipeapp from './projects/recipeapp.png';
-import trackbudget from './projects/trackbudget.png';
-import carrental from './projects/carrental.png';
+import tvshowbox from './carousels/tvshow screenshot 1.png';
+import guesstheword from './carousels/guess the word screenshot 1.png';
+import tictactoe from './carousels/tic tac toe screenshot 1.png';
+import mathmagician from './portfolio1.png';
+import metricwebapp from './carousels/metrics webapp screenshot 1.png';
+import spacetravelers from './carousels/space travelers screenshot 1.png';
+import recipeapp from './carousels/recipe app screenshot 3.png';
+import trackbudget from './carousels/track budget screenshot 1.png';
+import carrental from './carousels/car rental screenshot 1.png';
 
 // carousel img
 import guesstheword1 from './carousels/guess the word screenshot 1.png';

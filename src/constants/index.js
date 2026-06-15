@@ -2,41 +2,48 @@ import {
   facebook, linkedin, instagram, twitter, github, facebook1, linkedin1, instagram1, twitter1, github1, tvshowbox, guesstheword, tictactoe, mathmagician, metricwebapp, spacetravelers, recipeapp, trackbudget, carrental, guesstheword1, guesstheword2, guesstheword3, spacetravelers1, spacetravelers2, spacetravelers3, tictactoe1, tictactoe2, tictactoe3, tvshow1, tvshow2, tvshow3, metricswebapp1, metricswebapp2, recipeapp3, recipeapp4, recipeapp6, trackbuget1, trackbuget2, trackbuget5, carrental1, carrental2, carrental3, responsive, react, fullstack,
 } from '../assets';
 
+import project1Main from '../assets/projects/screenshots/1.png';
+import project1Detail from '../assets/projects/screenshots/1-1.png';
+import project1Mobile from '../assets/projects/screenshots/1.png';
+import project2Main from '../assets/projects/screenshots/2.png';
+import project2Detail from '../assets/projects/screenshots/2-1.png';
+import project2Mobile from '../assets/projects/screenshots/2-2.png';
+import project3Main from '../assets/projects/screenshots/3.png';
+import project3Detail from '../assets/projects/screenshots/3-1.png';
+import project3Mobile from '../assets/projects/screenshots/3-2.png';
+import project4Main from '../assets/projects/screenshots/4.png';
+import project4Detail from '../assets/projects/screenshots/4-1.png';
+import project4Mobile from '../assets/projects/screenshots/4-2.png';
+import project5Main from '../assets/projects/screenshots/5.png';
+import project5Detail from '../assets/projects/screenshots/5-1.png';
+import project5Mobile from '../assets/projects/screenshots/5-2.png';
+import project6Main from '../assets/projects/screenshots/6.png';
+import project6Detail from '../assets/projects/screenshots/6-1.png';
+import project6Mobile from '../assets/projects/screenshots/6-2.png';
+import project7Main from '../assets/projects/screenshots/7.png';
+import project7Detail from '../assets/projects/screenshots/7-1.png';
+import project7Mobile from '../assets/projects/screenshots/7-2.png';
+import project8Main from '../assets/projects/screenshots/8.png';
+import project8Detail from '../assets/projects/screenshots/8.png';
+import project8Mobile from '../assets/projects/screenshots/8.png';
+import project9Main from '../assets/projects/screenshots/9.png';
+import project9Detail from '../assets/projects/screenshots/9-1.png';
+import project9Mobile from '../assets/projects/screenshots/9-2.png';
+
 const social = [
   {
     id: 1,
-    name: 'LinkedIn',
-    url: '#',
-    icon: linkedin,
-    icon1: linkedin1,
+    name: 'Github',
+    url: 'https://github.com/KaenBlaze',
+    icon: github,
+    icon1: github1,
   },
   {
     id: 2,
-    name: 'Facebook',
-    url: '#',
-    icon: facebook,
-    icon1: facebook1,
-  },
-  {
-    id: 3,
-    name: 'Instagram',
-    url: '#',
-    icon: instagram,
-    icon1: instagram1,
-  },
-  {
-    id: 4,
-    name: 'Twitter',
-    url: '#',
-    icon: twitter,
-    icon1: twitter1,
-  },
-  {
-    id: 5,
-    name: 'Github',
-    url: 'https://github.com/Kaen-Blaze',
-    icon: github,
-    icon1: github1,
+    name: 'Telegram',
+    url: 'https://t.me/KaenBlaze',
+    icon: 'https://cdn.simpleicons.org/telegram/0088cc',
+    icon1: 'https://cdn.simpleicons.org/telegram/ffffff',
   },
 ];
 
@@ -126,111 +133,131 @@ const technologies = [
     name: 'Figma',
     icon: 'https://www.vectorlogo.zone/logos/figma/figma-icon.svg',
   },
-  // {
-  //   stack: ['tools', 'all'],
-  //   name: 'Postman',
-  //   icon: 'https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg',
-  // },
+  {
+    stack: ['tools', 'all'],
+    name: 'WordPress',
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg',
+  },
+  {
+    stack: ['tools', 'all'],
+    name: 'Shopify',
+    icon: 'https://cdn.simpleicons.org/shopify/000000',
+  },
+  {
+    stack: ['tools', 'all'],
+    name: 'WooCommerce',
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/woocommerce/woocommerce-plain.svg',
+  },
+  {
+    stack: ['tools', 'all'],
+    name: 'MongoDB',
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg',
+  },
+  {
+    stack: ['tools', 'all'],
+    name: 'MySQL',
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg',
+  },
 ];
 
 const projects = [
   {
     id: 1,
-    name: 'Car Rental App',
-    desc: 'The Car Rental App is a comprehensive full-stack application where you can seamlessly explore an array of cars, search by name, delve into comprehensive car details, make reservations when logged in, manage reservations, add or delete cars in the database, and personalize your profile with ease.',
-    tech: ['React', 'Redux', 'Ruby on Rails', 'PostgreSQL'],
-    img: carrental,
-    carousel: [carrental1, carrental2, carrental3],
-    source_link: 'https://github.com/Rhaegar121/Car-Rental-front-end',
-    live_link: 'https://car-rental121.netlify.app/',
+    name: 'My Portfolio',
+    desc: 'My Portfolio is a modern personal website that showcases my skills, projects, and professional background in a polished, responsive experience. It highlights featured work, a clean visual identity, and easy access to contact and GitHub links.',
+    tech: ['React', 'Vite', 'Tailwind CSS', 'Framer Motion'],
+    img: project6Main,
+    carousel: [project6Main, project6Detail, project6Mobile],
+    source_link: 'https://github.com/KaenBlaze/my-portfolio',
+    live_link: '/',
   },
   {
     id: 2,
-    name: 'Recipe App',
-    desc: 'The Recipe app keeps track of all your foods, recipes, and ingredients. It allows you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe. Since sharing recipes is an important part, it allows you to make them public so anyone can access them.',
-    tech: ['Ruby', 'Ruby on Rails', 'PostgreSQL'],
-    img: recipeapp,
-    carousel: [recipeapp3, recipeapp4, recipeapp6],
-    source_link: 'https://github.com/Rhaegar121/Recipe-App',
-    live_link: 'https://recipe-app121-b8888e20687b.herokuapp.com/',
+    name: 'Flutter WooCommerce App',
+    desc: 'Flutter WooCommerce App is a mobile commerce experience built for WooCommerce stores. It supports product browsing, cart handling, wallet-friendly checkout flows, and a polished storefront experience for shoppers on the go.',
+    tech: ['Flutter', 'WooCommerce', 'Mobile UI'],
+    img: project2Main,
+    carousel: [project2Main, project2Detail, project2Mobile],
+    source_link: 'https://github.com/KaenBlaze/flutter-woocommerce-app',
+    live_link: 'https://woosignal.com/woocommerce-app/label-storemax',
   },
   {
     id: 3,
-    name: 'TV Shows Box',
-    desc: 'TVshows Box is a web application showing multiple TV shows with the help of TVmaze API which contains both mobile and desktop versions. The webapp have 3 interfaces: - A home page, a popup window, and a contact page.',
-    tech: ['HTML5', 'CSS3', 'JavaScript', 'TVmaze API'],
-    img: tvshowbox,
-    carousel: [tvshow1, tvshow2, tvshow3],
-    source_link: 'https://github.com/Rhaegar121/TVshows_Box',
-    live_link: 'https://tvshowbox.netlify.app/',
+    name: 'Twenty Twenty-Four',
+    desc: 'Twenty Twenty-Four is a modern WordPress-based website tailored for architecture and editorial storytelling. It highlights category-driven content, polished layouts, and a responsive reading experience for online publishing.',
+    tech: ['WordPress', 'PHP', 'Content Design'],
+    img: project3Main,
+    carousel: [project3Main, project3Detail, project3Mobile],
+    source_link: 'https://github.com/KaenBlaze/twentytwentyfour',
+    live_link: 'https://2024.wordpress.net/index.php/category/architecture/',
   },
   {
     id: 4,
-    name: 'Metrics Webapp',
-    desc: 'Metrics Webapp is a mobile web application showing the current weather data of the cities using the Openweather API. It has two interfaces - city page and detail page based on the design of Nelson Sakwa on Behance. Built during the Microverse Module 3 React Captone Project.',
-    tech: ['React', 'Redux', 'Openweather API'],
-    img: metricwebapp,
-    carousel: [metricswebapp1, metricswebapp2],
-    source_link: 'https://github.com/Rhaegar121/Metrics-Webapp',
-    live_link: 'https://metrics-webapp121.netlify.app/',
+    name: 'Doctor Schedule',
+    desc: 'Doctor Schedule is a clinic appointment management application focused on booking visits, organizing schedules, and helping patients connect with doctors quickly. It combines a clean UI with practical workflow tools for medical services.',
+    tech: ['React', 'Next.js', 'Booking Flow'],
+    img: project4Main,
+    carousel: [project4Main, project4Detail, project4Mobile],
+    source_link: 'https://github.com/KaenBlaze/doctor-schedule',
+    live_link: 'https://doctor-schedule-oz7u.vercel.app/',
   },
   {
     id: 5,
-    name: 'Track Budget App',
-    desc: 'Track Budget is a mobile web application where you can manage your budget: you have a list of purchases associated with a category, so that you can see how much money you spent and on what category.',
-    tech: ['Ruby', 'Ruby on Rails', 'PostgreSQL'],
-    img: trackbudget,
-    carousel: [trackbuget1, trackbuget2, trackbuget5],
-    source_link: 'https://github.com/Rhaegar121/Track-Budget',
-    live_link: 'https://track-budget121-70a570d4e3e1.herokuapp.com/',
+    name: 'Fusion Ecommerce App',
+    desc: 'Fusion Ecommerce App is a full-stack shopping platform built with the MERN stack. It provides product listings, a shopping cart, user authentication, and an end-to-end purchase experience for modern online retail.',
+    tech: ['MongoDB', 'Express', 'React', 'Node.js'],
+    img: project5Main,
+    carousel: [project5Main, project5Detail, project5Mobile],
+    source_link: 'https://github.com/KaenBlaze/MERN-STACK_Ecommerce',
+    live_link: 'https://fusion-ecommerce-app.vercel.app/shop',
   },
   {
     id: 6,
-    name: 'Math Magicians',
-    desc: 'Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.',
-    tech: ['React'],
-    img: mathmagician,
-    carousel: [mathmagician],
-    source_link: 'https://github.com/Rhaegar121/Math-Magicians',
-    live_link: 'https://math-magicians121.netlify.app/',
+    name: 'Fusion Cloth Ecommerce',
+    desc: 'Fusion Cloth Ecommerce is a Shopify-powered fashion storefront designed for modern clothing brands. It focuses on product presentation, collections, cart experience, and a polished shopping journey for online retail.',
+    tech: ['Shopify', 'Svelte', 'Ecommerce'],
+    img: project1Main,
+    carousel: [project1Main, project1Detail, project1Mobile],
+    source_link: 'https://github.com/KaenBlaze/Svelte-Ecommerce',
+    live_link: 'https://arialshop.com',
   },
   {
     id: 7,
-    name: 'Tic Tac Toe',
-    desc: 'Tic Tac Toe is a simple and classic game that is played on a 3x3 grid. The game is typically played with two players, one using “X” and the other using “O”. Mainly built with JavaScript.',
-    tech: ['HTML5', 'CSS3', 'JavaScript'],
-    img: tictactoe,
-    carousel: [tictactoe1, tictactoe2, tictactoe3],
-    source_link: 'https://github.com/Rhaegar121/Tic-Tac-Toe',
-    live_link: 'https://tic-tac-toe121.netlify.app/',
+    name: 'Metrics Webapp',
+    desc: 'Metrics Webapp is a mobile web application showing the current weather data of the cities using the Openweather API. It has two interfaces - city page and detail page based on the design of Nelson Sakwa on Behance. Built during the Microverse Module 3 React Captone Project.',
+    tech: ['React', 'Redux', 'Openweather API'],
+    img: project7Main,
+    carousel: [project7Main, project7Detail, project7Mobile],
+    source_link: '',
+    live_link: 'https://metrics-webapp121.netlify.app/',
   },
   {
     id: 8,
-    name: "Space Travelers' Hub",
-    desc: "Space Travelers' Hub is a web application that provides commercial and scientific space travel services using the real live data from the SpaceX API. The application will allow users to book rockets and join selected space missions.",
-    tech: ['React', 'Redux', 'SpaceX API'],
-    img: spacetravelers,
-    carousel: [spacetravelers1, spacetravelers2, spacetravelers3],
-    source_link: 'https://github.com/Rhaegar121/React-Group-Project',
-    live_link: 'https://space-travelers-hub121.netlify.app/',
+    name: 'Recipe App',
+    desc: 'The Recipe app keeps track of all your foods, recipes, and ingredients. It allows you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe. Since sharing recipes is an important part, it allows you to make them public so anyone can access them.',
+    tech: ['Ruby', 'Ruby on Rails', 'PostgreSQL'],
+    img: project8Main,
+    carousel: [project8Main, project8Detail, project8Mobile],
+    source_link: 'https://github.com/KaenBlaze/Recipe-App',
+    live_link: 'https://recipe-app121-b8888e20687b.herokuapp.com/',
   },
   {
     id: 9,
-    name: 'Guess the word',
-    desc: 'Guess The Word is a fun letter puzzle game where the player have to guess the hidden word using the clues that the game gives. The game ends if the player guesses the correct word or if he chooses the wrong letter 8 times. Mainly built with Javascript.',
-    tech: ['HTML5', 'CSS3', 'JavaScript'],
-    img: guesstheword,
-    carousel: [guesstheword1, guesstheword2, guesstheword3],
-    source_link: 'https://github.com/Rhaegar121/Guess-the-word',
-    live_link: 'https://guess-the-word121.netlify.app/',
-  },
+    name: 'MERN Chat',
+    desc: 'MERN Chat is a real-time messaging application built with the MERN stack. It offers user authentication, instant conversations, chat room support, and a clean, responsive interface designed for modern communication.',
+    tech: ['MongoDB', 'Express', 'React', 'Node.js'],
+    img: project9Main,
+    carousel: [project9Main, project9Detail, project9Mobile],
+    source_link: 'https://github.com/KaenBlaze/MERN-Chat',
+    live_link: 'https://mern-t-chat.vercel.app/chats',
+  }
 ];
 
 const testimonials = [
   {
     id: 1,
     name: 'Ahmed Hasan Rony',
-    image: 'https://avatars.githubusercontent.com/u/77187003?v=4',
+    image: 'https://i.pravatar.cc/150?img=12',
     text: 'I really am comfortable with collaborating and coding with Kaen. His ingenious ideas give me a lot of ideas solving a problem multiple ways.',
     country: 'India',
     linkedIn: 'https://www.linkedin.com/in/ahroniy/',
@@ -238,7 +265,7 @@ const testimonials = [
   {
     id: 2,
     name: 'Rachel Isaac',
-    image: 'https://media.licdn.com/dms/image/D4D35AQHOKsZ2nSaTjg/profile-framedphoto-shrink_400_400/0/1665541124692?e=1721469600&v=beta&t=Evk76YZRsti88Lyr1khjrlxcZKF8v2hrbA3G7YLhIz4',
+    image: 'https://i.pravatar.cc/150?img=15',
     text: "Throughout our collaboration, I was consistently impressed by Kaen's professionalism, attention to detail, and ability to adapt to changing requirements.",
     country: 'United Arab Emirates',
     linkedIn: 'https://www.linkedin.com/in/racheleno/',
@@ -246,7 +273,7 @@ const testimonials = [
   {
     id: 3,
     name: 'Muhammad Talha Hanif',
-    image: 'https://media.licdn.com/dms/image/D4D03AQF6A-cET7akGQ/profile-displayphoto-shrink_400_400/0/1687861230806?e=1726099200&v=beta&t=C1jrASsQ8AXgmkVrndSBMyBfh7eTBQ_pe2VG79FSNN0',
+    image: 'https://i.pravatar.cc/150?img=20',
     text: 'He possesses a deep understanding of the latest technologies and trends in his field, allowing him to tackle complex challenges with ease.',
     country: 'Pakistan',
     linkedIn: 'https://www.linkedin.com/in/muhammad-talha-hanif/',
@@ -254,7 +281,7 @@ const testimonials = [
   {
     id: 4,
     name: 'Jerome Osman',
-    image: 'https://media.licdn.com/dms/image/D4D03AQE1F2tqE5cttw/profile-displayphoto-shrink_400_400/0/1694205105262?e=1726099200&v=beta&t=TYftRu2dWsY-5eUgZSsorbbURiQMGtGVOcmcJeDrsGQ',
+    image: 'https://i.pravatar.cc/150?img=27',
     text: 'His kindness and patience with his peers makes him easy to work with no matter the difficulty, and that reflects as well when it comes to helping others in his team or explaining something when need be',
     country: 'South Africa',
     linkedIn: 'https://www.linkedin.com/in/jerome-osman/',
@@ -262,7 +289,7 @@ const testimonials = [
   {
     id: 5,
     name: 'Innocent N.',
-    image: 'https://media.licdn.com/dms/image/D5603AQE1qYMUswBOAw/profile-displayphoto-shrink_400_400/0/1688151359384?e=1726099200&v=beta&t=rkHvuiSC9ww8BOxUhz2cqpIdzAoW6ZUEWbJDQW5W5OU',
+    image: 'https://i.pravatar.cc/150?img=32',
     text: 'Communication was another strength that Kaen brought to the table. He actively listened, communicated ideas clearly, and collaborated effectively with team members.',
     country: 'Rwanda',
     linkedIn: 'https://www.linkedin.com/in/innocent-n/',
@@ -270,7 +297,7 @@ const testimonials = [
   {
     id: 6,
     name: 'Marko Kermichiev',
-    image: 'https://avatars.githubusercontent.com/u/112749658?v=4',
+    image: 'https://i.pravatar.cc/150?img=40',
     text: 'I learned too much from you and I can say that you are fantastic developer. Working with you is always a pleasure, hope that we can work on some project asap.',
     country: 'Macedonia',
     linkedIn: 'https://www.linkedin.com/in/marko-kermichiev/',

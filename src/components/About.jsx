@@ -15,36 +15,13 @@ const About = () => (
         {' '}
           Kaen (Braze),
         {' '}
-        a passionate software engineer specializing in React and Ruby on Rails. I thrive on delivering state-of-the-art software solutions. When I&apos;m not coding, you&apos;ll find me exploring the fascinating worlds of Math, Movies, and Music.
+        passionate about building web applications, mobile apps, SaaS products, developer tools, and AI-powered solutions. I love turning ideas into real products and collaborating with ambitious people who enjoy creating things that make a difference.
       </motion.p>
       <motion.p variants={fadeIn('', '', 1, 1)} className={style.text}>
-        My journey into software development was anything but ordinary. As a former third-year student at Maritime University, I made a bold decision to drop out and pursue my true passion. That led me to Microverse, a remote software development school, where I honed my skills through pair programming and real-world projects. I completed the boot camp with unwavering dedication, amassing over
-        {' '}
-        <a
-          href="https://github.com/Rhaegar121"
-          target="_blank"
-          className={style.link}
-          rel="noreferrer"
-        >
-          {' '}
-          2500+ contributions on GitHub
-        </a>
-        {' '}
-        in just one year. My experience in the Students&apos; Union further sharpened my problem-solving and communication abilities.
+        My journey into software development has been driven by curiosity, independence, and a desire to build. Starting as a freelancer, I taught myself how to develop software, worked with clients from around the world, and learned how to take products from concept to launch. Along the way, I discovered that great software is about more than code it's about solving real problems, understanding users, and continuously improving through feedback and iteration.
       </motion.p>
       <motion.p variants={fadeIn('', '', 1.25, 1)} className={style.text}>
-        Ready to bring your project to life? Reach out—I&apos;m excited to collaborate!
-        {' '}
-        <a
-          href="https://drive.google.com/file/d/1tciorak3ZNmMrPPnG_b9eSMnv94fY61_/view?usp=sharing"
-          target="_blank"
-          className={style.link}
-          rel="noreferrer"
-        >
-          Check out my resume
-        </a>
-        {' '}
-        for more insights into my journey and qualifications.
+        Ready to bring your project to life? Reach out I&apos;m excited to collaborate!
       </motion.p>
     </div>
   </>

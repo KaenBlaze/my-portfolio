@@ -73,7 +73,7 @@ const Testimonial = () => {
             >
               <div className={style.header}>
                 <motion.div variants={textVariant()}><FaQuoteLeft className={style.openquote} /></motion.div>
-                <img className={style.img} src={testimonial.image} alt="profile" />
+                <img className={style.img} src={testimonial.image} alt={`${testimonial.name} profile`} loading="lazy" />
               </div>
               <motion.p variants={fadeIn('', '', 0.15, 1)} className={style.para}>{testimonial.text}</motion.p>
               <div className={`${style.label} ${style.firstlabel}`}>

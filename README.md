@@ -73,7 +73,7 @@
 
 👤 **Kaen**
 
-- GitHub: [GitHub](https://github.com/Kaen-Blaze)
+- GitHub: [GitHub](https://github.com/KaenBlaze)
 - Gmail: kaen197517@gmail.com
 - Twitter: [Twitter](https://twitter.com/Rhaegar121)
 
