@@ -1,34 +1,46 @@
 import {
-  facebook, linkedin, instagram, twitter, github, facebook1, linkedin1, instagram1, twitter1, github1, tvshowbox, guesstheword, tictactoe, mathmagician, metricwebapp, spacetravelers, recipeapp, trackbudget, carrental, guesstheword1, guesstheword2, guesstheword3, spacetravelers1, spacetravelers2, spacetravelers3, tictactoe1, tictactoe2, tictactoe3, tvshow1, tvshow2, tvshow3, metricswebapp1, metricswebapp2, recipeapp3, recipeapp4, recipeapp6, trackbuget1, trackbuget2, trackbuget5, carrental1, carrental2, carrental3, responsive, react, fullstack,
+  facebook,
+  linkedin,
+  instagram,
+  twitter,
+  github,
+  facebook1,
+  linkedin1,
+  instagram1,
+  twitter1,
+  github1,
+  responsive,
+  react,
+  fullstack,
 } from '../assets';
 
-import project1Main from '../assets/projects/screenshots/1.png';
-import project1Detail from '../assets/projects/screenshots/1-1.png';
-import project1Mobile from '../assets/projects/screenshots/1.png';
-import project2Main from '../assets/projects/screenshots/2.png';
-import project2Detail from '../assets/projects/screenshots/2-1.png';
-import project2Mobile from '../assets/projects/screenshots/2-2.png';
-import project3Main from '../assets/projects/screenshots/3.png';
-import project3Detail from '../assets/projects/screenshots/3-1.png';
-import project3Mobile from '../assets/projects/screenshots/3-2.png';
-import project4Main from '../assets/projects/screenshots/4.png';
-import project4Detail from '../assets/projects/screenshots/4-1.png';
-import project4Mobile from '../assets/projects/screenshots/4-2.png';
-import project5Main from '../assets/projects/screenshots/5.png';
-import project5Detail from '../assets/projects/screenshots/5-1.png';
-import project5Mobile from '../assets/projects/screenshots/5-2.png';
-import project6Main from '../assets/projects/screenshots/6.png';
-import project6Detail from '../assets/projects/screenshots/6-1.png';
-import project6Mobile from '../assets/projects/screenshots/6-2.png';
-import project7Main from '../assets/projects/screenshots/7.png';
-import project7Detail from '../assets/projects/screenshots/7-1.png';
-import project7Mobile from '../assets/projects/screenshots/7-2.png';
-import project8Main from '../assets/projects/screenshots/8.png';
-import project8Detail from '../assets/projects/screenshots/8.png';
-import project8Mobile from '../assets/projects/screenshots/8.png';
-import project9Main from '../assets/projects/screenshots/9.png';
-import project9Detail from '../assets/projects/screenshots/9-1.png';
-import project9Mobile from '../assets/projects/screenshots/9-2.png';
+import project1Main from '../assets/projects/screenshots/1.webp';
+import project1Detail from '../assets/projects/screenshots/1-1.webp';
+import project1Mobile from '../assets/projects/screenshots/1.webp';
+import project2Main from '../assets/projects/screenshots/2.webp';
+import project2Detail from '../assets/projects/screenshots/2-1.webp';
+import project2Mobile from '../assets/projects/screenshots/2-2.webp';
+import project3Main from '../assets/projects/screenshots/3.webp';
+import project3Detail from '../assets/projects/screenshots/3-1.webp';
+import project3Mobile from '../assets/projects/screenshots/3-2.webp';
+import project4Main from '../assets/projects/screenshots/4.webp';
+import project4Detail from '../assets/projects/screenshots/4-1.webp';
+import project4Mobile from '../assets/projects/screenshots/4-2.webp';
+import project5Main from '../assets/projects/screenshots/5.webp';
+import project5Detail from '../assets/projects/screenshots/5-1.webp';
+import project5Mobile from '../assets/projects/screenshots/5-2.webp';
+import project6Main from '../assets/projects/screenshots/6.webp';
+import project6Detail from '../assets/projects/screenshots/6-1.webp';
+import project6Mobile from '../assets/projects/screenshots/6-2.webp';
+import project7Main from '../assets/projects/screenshots/7.webp';
+import project7Detail from '../assets/projects/screenshots/7-1.webp';
+import project7Mobile from '../assets/projects/screenshots/7-2.webp';
+import project8Main from '../assets/projects/screenshots/8.webp';
+import project8Detail from '../assets/projects/screenshots/8.webp';
+import project8Mobile from '../assets/projects/screenshots/8.webp';
+import project9Main from '../assets/projects/screenshots/9.webp';
+import project9Detail from '../assets/projects/screenshots/9-1.webp';
+import project9Mobile from '../assets/projects/screenshots/9-2.webp';
 
 const social = [
   {
