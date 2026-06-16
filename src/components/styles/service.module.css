@@ -84,14 +84,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.05);
 }
 
-.icon {
-  width: 3.25rem;
-  height: 3.25rem;
-  color: var(--white);
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
 }
 
 .name {

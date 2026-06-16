@@ -15,9 +15,9 @@ import instagram from './socials/instagram.png';
 import instagram1 from './socials/instagram (1).png';
 
 // services
-import responsive from './services/responsive.webp';
-import react from './services/react.webp';
-import fullstack from './services/fullstack.webp';
+import responsive from './services/responsive.gif';
+import react from './services/react.gif';
+import fullstack from './services/fullstack.gif';
 
 export {
   logo,
